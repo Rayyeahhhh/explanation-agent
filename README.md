@@ -1,6 +1,6 @@
 ## Environment Variables
 
-Create a `.env` file and add:
+You need to create a `.env` file and add:
 GOOGLE_API_KEY=your_api_key_here
 
 ## Introduction
