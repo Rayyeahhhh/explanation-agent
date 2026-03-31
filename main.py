@@ -7,7 +7,7 @@ from dotenv import load_dotenv
 
 # 載入環境變數
 load_dotenv()
-API_KEY = os.getenv("GEMINI_API_KEY") or os.getenv("GOOGLE_API_KEY")
+API_KEY = os.getenv("GEMINI_API_KEY") or os.getenv("GOOGLE_API_KEY")   # add your api key in the .env file
 MODEL_NAME = "gemini-2.5-flash"
 
 if not API_KEY:
